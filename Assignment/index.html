@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>Electronics Store</title>
+
+        <link rel="stylesheet" type="text/css" href="css/css.css" />
+        <link rel="icon" href="images/icons/cart.png">
+    </head>
+
+    <header>
+
+        <div class = "name">
+                Electronics Store
+        </div>
+
+    </header>
+
+    <body>
+        <h1>Products</h1>
+
+        <div id="nav">
+          <button class="btn active"> All</button>
+          <button id="keyboard" class="btn"> Keyboards</button>
+          <button class="btn"> Mice</button>
+          <button class="btn"> Monitors</button>
+        </div>
+        <!-- differnt buttons to show ites from certain category-->
+
+        <main>
+            <section id="productgrid"></section>
+            <section id="basket"></section>
+            <!-- two main sections of the homepage to display products and show the basket-->
+        </main>
+
+        <div id="details">
+
+            <h1>Delivery Details</h1>
+
+            <form id="deliveryForm">
+                <input id="inputName" placeholder="Name" name="">
+
+                <input id="inputAddress" placeholder="Address" name="">
+
+                <input id="inputPostcode" placeholder="Postcode" name="">
+
+                <input id="inputNotes" placeholder="Delivery Notes" name="">
+            </form>           
+            <!-- form at the bottom of page-->
+                <button id="inputButton" type="button" value="Submit">Submit</button>
+                <p id="message"></p>
+        </div>
+    </body>
+            <script type="text/javascript" src="js/js.js"></script>
+
+    <footer>
+    </footer>
+</html>
